@@ -23,10 +23,6 @@ namespace RewriteYourSummer.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         public IActionResult Blog()
         {
