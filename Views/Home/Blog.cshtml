@@ -3,6 +3,100 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>
-    people’s experiences, lawyer’s advice
-</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Record Clearance Blog</title>
+    <style>
+        * {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .leftcolumn {
+            float: left;
+            width: 75%
+        }
+
+        .rightcolumn {
+            float: left;
+            width: 20%;
+            padding-left: 20px;
+        }
+
+        .card {
+            background-color: #66b2b2;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .fakeimg {
+            background-color: black;
+            padding: 10px;
+            border-color: orange;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .link {
+            background-color: white;
+            font-weight: bold;
+            text-decoration: underline;
+            padding-top: 15 px;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <a href="index.html" style="text-align: left">Home</a>
+    </p>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2> Record Clearance Blog</h2>
+                <h5>[Author Name] [Date]</h5>
+                <div class="fakeimg" style="height:200px">IMG</div>
+                <p> The Content goes here</p>
+            </div>
+            <div class="card">
+                <h2> Record Clearance Blog</h2>
+                <h5>[Author Name] [Date]</h5>
+                <p> The Content goes here</p>
+            </div>
+            <div class="card">
+                <h2> Record Clearance Blog</h2>
+                <h5>[Author Name] [Date]</h5>
+                <p> The Content goes here</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2> How to submit a blog post</h2>
+                <p> Instructions and Links</p>
+            </div>
+            <div class="card">
+                <h3>Featured Stories</h3>
+                <div class="link">
+                    <p>link to a story</p>
+                </div>
+                <div class="link">
+                    <p>link to a story</p>
+                </div>
+                <div class="link">
+                    <p>link to a story</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
