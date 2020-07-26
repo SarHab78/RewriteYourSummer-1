@@ -28,6 +28,26 @@ namespace RewriteYourSummer.Controllers
             return View();
         }
 
+        public IActionResult Blog()
+        {
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
+        public IActionResult Definitions()
+        {
+            return View();
+        }
+
+        public IActionResult Resources()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
