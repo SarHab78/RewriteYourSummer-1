@@ -1,8 +1,66 @@
 ﻿@{
     ViewData["Title"] = "Resources";
 }
+
+<style>
+    *{
+        text-align:center;
+    }
+    .cardleft{
+        width: 50%;
+        float:left;
+        padding: 5px;
+        
+
+    }
+    .link {
+        color: blue;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .summary{
+        background-color:lightgray;
+
+    }
+    .cardright{
+      
+        width:45%;
+        float:left;
+        padding:5px;
+
+    }
+</style>
 <h1>@ViewData["Title"]</h1>
 
-<p>
-    Links with a short summary
-</p>
+
+<div class="cardleft">
+    <div class="link">
+        Link
+    </div>
+    <div class="summary">
+        Links with a short summary
+    </div>
+    <br />
+    <div class="link">
+        Link
+    </div>
+    <div class="summary">
+        Links with a short summary
+    </div>
+</div>
+
+<div class="cardright">
+    <div class="link">
+        Link
+    </div>
+    <div class="summary">
+        Links with a short summary
+    </div>
+    <br />
+    <div class="link">
+        Link
+    </div>
+    <div class="summary">
+        Links with a short summary
+    </div>
+</div>

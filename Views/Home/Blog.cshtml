@@ -1,7 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Record Clearance Blog";
 }
-<h1>@ViewData["Title"]</h1>
 
 <!DOCTYPE html>
 <html>
@@ -22,6 +21,7 @@
             float: left;
             width: 20%;
             padding-left: 20px;
+            position:relative;
         }
 
         .card {
@@ -50,13 +50,18 @@
             padding-top: 15 px;
             padding-bottom: 15px;
         }
+
+        h1{
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
- 
     <div class="row">
+     
         <div class="leftcolumn">
+          <h1>@ViewData["Title"]</h1>
             <div class="card">
                 <h2> Record Clearance Blog</h2>
                 <h5>[Author Name] [Date]</h5>
@@ -77,8 +82,9 @@
         <div class="rightcolumn">
             <div class="card">
                 <h2> How to submit a blog post</h2>
-                <p> To be featured, please fill out this form! <br> 
-                Your post will be reviewed and uploaded to the site. Thank you for sharing your story!<br>
+                <p>
+                    To be featured, please fill out this form! <br>
+                    Your post will be reviewed and uploaded to the site. Thank you for sharing your story!<br>
                 </p>
             </div>
             <div class="card">
